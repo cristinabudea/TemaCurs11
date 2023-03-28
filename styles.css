@@ -1,3 +1,9 @@
+:root {
+    --bg-primary: white;
+    --bg-secondary: beige;
+    --bg-dark: rgb(4, 4, 48);
+}
+
 .col img {
     width: 300px;
     height: 150px;

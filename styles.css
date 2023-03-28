@@ -1,6 +1,6 @@
 :root {
     --bg-primary: white;
-    --bg-secondary: beige;
+    --bg-secondary: rgb(193, 98, 208);
     --bg-dark: rgb(4, 4, 48);
 }
 
@@ -8,4 +8,17 @@
     width: 300px;
     height: 150px;
     margin: 20px 0;
+}
+
+body {
+    background-color: var(--bg-primary);
+}
+
+h1 {
+    background-color: var(--bg-dark);
+    color: white;
+}
+
+.container {
+    background-color: var(--bg-dark);
 }
